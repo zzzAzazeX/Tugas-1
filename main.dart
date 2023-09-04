@@ -1,7 +1,7 @@
 class Mahasiswa {
-  String? nim;
-  String? nama;
-  int? tahunLahir;
+  String nim;
+  String nama;
+  int tahunLahir;
 
   Mahasiswa(this.nim, this.nama, this.tahunLahir);
 
