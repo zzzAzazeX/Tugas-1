@@ -3,7 +3,7 @@ class Mahasiswa {
   String? nama;
   int? tahunLahir;
 
-  Mahasiswa(this.nim, .this.nama, this.tahunLahir);
+  Mahasiswa(this.nim, this.nama, this.tahunLahir);
 
   void perkenalan() {
     print("Perkenalkan, nama saya $nama");
